@@ -1,70 +1,73 @@
-###################
-What is CodeIgniter
-###################
-
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
-
 *******************
-Release Information
+Project Details:
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Project Title:- Office Management System
+
+Users:
+
+1.Administrator
+
+2.Staff
 
 **************************
-Changelog and New Features
+Module Specification:
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+1.Admin
+
+1.Manage Department.
+
+2.Manage Staff.
+
+3.Manage Salary.
+
+4.Download Invoice.
+
+5.Manage Leave.
+
+2.Staff
+
+1.Login to the Portal.
+
+2.View Salary.
+
+3.Download Invoice.
+
+4.Apply for Leave.
+
+
+Note: This project is not a perfectly functional one. You can try making changes yourself for making it better.
+
 
 *******************
-Server Requirements
+How To Run The Project?
 *******************
 
-PHP version 5.6 or newer is recommended.
+To run this project, you must have installed a virtual server i.e XAMPP on your PC (for Windows). This Interview Management System is in PHP with source code is free to download, Use for educational purposes only!
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+After Starting Apache and MySQL in XAMPP, follow the following steps.
 
-************
-Installation
-************
+1st Step: Extract file
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+2nd Step: Copy the main project folder
 
-*******
-License
-*******
+3rd Step: Paste in xampp/htdocs/
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+4rd Step: Change base url in application/config/config.php to "http://localhost/Ofiice-Management-System/"
 
-*********
-Resources
-*********
+5th Step: Open a browser and go to URL “http://localhost/phpmyadmin/”
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+6th Step: Then, click on the databases tab
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+7th Step: Create a database naming “thub_office” and then click on the import tab
 
-***************
-Acknowledgement
-***************
+8th Step: Click on browse file and select “thub_office.sql” file which is inside the “database” folder.
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+8th Step: Click on go.
+
+After Creating Database,
+
+9th Step: Open a browser and go to URL “http://localhost/Ofiice-Management-System/”
+
+NOTE: Check database for login details. 
